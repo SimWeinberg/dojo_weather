@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-container">
+            <h1 class="nav-title">DojoWeather</h1>
+            <ul class="nav-links">
+                <li><a href="#" class="links" onclick="alert('Loading weather report')">Burbank</a></li>
+                <li><a href="#" class="links" onclick="alert('Loading weather report')">Chicago</a></li>
+                <li><a href="#" class="links" onclick="alert('Loading weather report')">Dallas</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="city">
+        <div class="city-name">
+            <h2>San Jose</h2>
+        </div>
+        <div class="city-temp">
+            <p id="city-p">show temperature in </p>
+            <select name="temperature">
+                <option>°C</option>
+                <option>°F</option>
+            </select>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main-day" id="main-day-left">
+            <h3 class="main-day-text">Today</h3>
+            <img class="image" src="img/some_rain.png" alt="some rain">
+            <p class="main-day-text">some rain</p>
+            <div class="degrees">
+                <div class="degrees-high">
+                    <h3 class="red">24°</h3>
+                </div>
+                <div class="degrees-low">
+                    <h3 class="blue">18°</h3>
+                </div>
+            </div>
+        </div>
+        <div class="main-day">
+            <h3 class="main-day-text">Tomorrow</h3>
+            <img class="image" src="img/some_sun.png" alt="some sun">
+            <p class="main-day-text">some sun</p>
+            <div class="degrees">
+                <div class="degrees-high">
+                    <h3 class="red">27°</h3>
+                </div>
+                <div class="degrees-low">
+                    <h3 class="blue">19°</h3>
+                </div>
+            </div>
+        </div>
+        <div class="main-day">
+            <h3 class="main-day-text">Friday</h3>
+            <img class="image" src="img/some_clouds.png" alt="some clouds">
+            <p class="main-day-text">some clouds</p>
+            <div class="degrees">
+                <div class="degrees-high">
+                    <h3 class="red">21°</h3>
+                </div>
+                <div class="degrees-low">
+                    <h3 class="blue">16°</h3>
+                </div>
+            </div>
+        </div>
+        <div class="main-day" id="main-day-right">
+            <h3 class="main-day-text">Saturday</h3>
+            <img class="image" src="img/some_sun.png" alt="some sun">
+            <p class="main-day-text">some sun</p>
+            <div class="degrees">
+                <div class="degrees-high">
+                    <h3 class="red">26°</h3>
+                </div>
+                <div class="degrees-low">
+                    <h3 class="blue">21°</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cookie">
+        <img src="img/cookie.png" alt="cookie pic" id="cookie-image">
+        <div class="cookie-text">
+            <h4>Stop! Cookie time</h4>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic. <a href="#">Read more...</a></p>
+        </div>
+        <button onclick="hide()">I Accept</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
